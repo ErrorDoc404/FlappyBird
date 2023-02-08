@@ -20,6 +20,6 @@ public class Trigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        logic.add();
+        logic.add(1);
     }
 }
