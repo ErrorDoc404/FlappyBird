@@ -20,6 +20,7 @@ public class Trigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        logic.add(1);
+        if(collision.gameObject.layer == 8)
+            logic.add(1);
     }
 }
